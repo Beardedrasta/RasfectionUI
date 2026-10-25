@@ -1,0 +1,40 @@
+
+## Interface: 30300
+## Title: |cff9b59ffRasfection|r |cffffffffUI|r
+## Notes: Modular UI overhaul for WoW 3.3.5a
+## Author: Hunter
+## Version: 3.0.0
+## SavedVariables: RasfectionUIDB
+## DefaultState: Enabled
+
+Core\Core.lua
+Core\Database.lua
+Core\GroupConfig.lua
+Core\Theme.lua
+Core\Movers.lua
+
+Modules\UnitFrames\CompactCore.lua
+Modules\UnitFrames\Player.lua
+Modules\UnitFrames\Target.lua
+Modules\UnitFrames\TargetTarget.lua
+Modules\UnitFrames\Focus.lua
+Modules\UnitFrames\FocusTarget.lua
+Modules\UnitFrames\Pet.lua
+Modules\UnitFrames\Party.lua
+Modules\UnitFrames\UnitFrameOptions.lua
+Modules\UnitFrames\AuraEnhancements.lua
+
+Modules\UnitFrames\Raid.lua
+Modules\UnitFrames\Raid.xml
+Modules\UnitFrames\RaidIndicators.lua
+Modules\UnitFrames\ClickCasting.lua
+
+Modules\ActionBars\ActionBars.lua
+Modules\ActionBars\ActionBarLayout.lua
+
+Core\GlobalAppearance.lua
+Core\AccentIntegration.lua
+Core\GlobalMedia.lua
+Core\GroupVisuals.lua
+Core\ActionBarVisuals.lua
+Core\ProfileManager.lua
